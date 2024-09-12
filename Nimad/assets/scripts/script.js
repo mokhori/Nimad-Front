@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
         clickable: true,
       },
       autoplay: {
-        delay: 1000,
+        delay: 5000,
         disableOnInteraction: false,
       },
       breakpoints: {
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
           prevEl: '.swiper-button-prev',
       },
       autoplay: {
-        delay: 3000,
+        delay: 5000,
         disableOnInteraction: false,
       },
       breakpoints: {
