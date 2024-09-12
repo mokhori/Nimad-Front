@@ -8,10 +8,10 @@ document.addEventListener("DOMContentLoaded", function() {
         el: '.swiper-pagination',
         clickable: true,
       },
-      autoplay: {
-        delay: 5000,
-        disableOnInteraction: false,
-      },
+      // autoplay: {
+      //   delay: 5000,
+      //   disableOnInteraction: false,
+      // },
       breakpoints: {
         500: { slidesPerView: 2 },
         700: { slidesPerView: 3 },
@@ -28,10 +28,10 @@ document.addEventListener("DOMContentLoaded", function() {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
       },
-      autoplay: {
-        delay: 5000,
-        disableOnInteraction: false,
-      },
+      // autoplay: {
+      //   delay: 5000,
+      //   disableOnInteraction: false,
+      // },
       breakpoints: {
         200:{
           slidesPerView: 1,
