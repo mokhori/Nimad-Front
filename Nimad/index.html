@@ -19,7 +19,7 @@
 <body dir="rtl">
   <header>
     <nav class="navbar navbar-expand-lg">
-      <div class="container p-">
+      <div class="container p-0">
         <a class="navbar-brand navbar-logo" href="#">
           <img src="./assets/img/nimadlogo.png" alt="logo" class="img-fluid logo">
         </a>
@@ -66,8 +66,9 @@
               </ul>
             </div>
             <div class="register-login bg-primary d-flex align-items-center justify-content-center">
-              <span>
+              <span class="d-flex align-items-center justify-content-center">
                 <a href="#">ورود / ثبت نام</a>
+                <i class="fa-solid fa-arrow-left mx-1"></i>
               </span>
             </div>
           </div>
@@ -77,14 +78,23 @@
   </header>
 
   <section>
-    <div class="container">
-      <div class="row">
-        <div class="slider">
-
+    <div class="container p-0">
+      <div class="row no-gutters">
+        <div class="swiper header-swiper position-relative">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide inner-curve-right">
+              <div class="inner-curve-left">
+                <img src="/Nimad/assets/img/Overhead crane 1.jpg" alt="" class="w-100 rounded-4">
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
     </div>
   </section>
+  
 
   <section class="mt-5">
     <div class="container">
@@ -238,10 +248,8 @@
                   </h6>
                 </div>
               </div>
-              <div class="swiper-slide inner-curve-right">
-                <div class="inner-curve-left">
+              <div class="swiper-slide">
                   <img src="./assets/img/8.png" alt="">
-                </div>
               </div>
               <div class="swiper-slide">
                 <img src="./assets/img/9.png" alt="">
@@ -256,7 +264,6 @@
                 <img src="./assets/img/9.png" alt="Image 1">
               </div>
             </div>
-
           </div>
           <div class="swiper-button-prev btn btn-circle"></div>
           <div class="swiper-button-next btn btn-circle"></div>
@@ -264,69 +271,6 @@
         </div>
       </div>
     </div>
-
-    <!-- <div class="row position-relative">
-          <div class="swiper-container-wrapper">
-
-
-                <div class="swiper-slide">
-                  <div class="card-list bottom-50">
-                    <div class="project-img rounded-4">
-                      <img src="./assets/img/7.png" alt="" srcset="" class="w-100 rounded-3">
-                    </div> 
-                    <div class="project-info-text position-absolute  start-0 end-0 d-flex justify-content-center">
-                      <h6 class="font-color text-center bg-white rounded-3 p-2" style="font-size: 12px;">
-                        ساخت سوله سه دهانه هلدینگ گلرنگ
-                      </h6>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="swiper-slide">
-                  <div class="card-list bottom-50">
-                    <div class="project-img rounded-4">
-                      <img src="./assets/img/9.png" alt="" srcset="" class="w-100 rounded-3">
-                    </div> 
-                    <div class="project-info-text position-absolute  start-0 end-0 d-flex justify-content-center">
-                      <h6 class="font-color text-center bg-white rounded-3 p-2" style="font-size: 12px;">
-                        ساخت پل عباسا نور
-                      </h6>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="swiper-slide">
-                  <div class="card-list bottom-50">
-                    <div class="project-img rounded-4">
-                      <img src="./assets/img/7.png" alt="" srcset="" class="w-100 rounded-3">
-                    </div> 
-                    <div class="project-info-text position-absolute  start-0 end-0 d-flex justify-content-center">
-                      <h6 class="font-color text-center bg-white rounded-3 p-2" style="font-size: 12px;">
-                        ساخت سازه آهنی رستوران کلبادی ساری
-                      </h6>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="swiper-slide">
-                  <div class="card-list bottom-50">
-                    <div class="project-img rounded-4">
-                      <img src="./assets/img/9.png" alt="" srcset="" class="w-100 rounded-3">
-                    </div> 
-                    <div class="project-info-text position-absolute  start-0 end-0 d-flex justify-content-center">
-                      <h6 class="font-color text-center bg-white rounded-3 p-2" style="font-size: 12px;">
-                        ساخت سازه آهنی رستوران کلبادی ساری
-                      </h6>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-              <div class="swiper-button-prev position-absolute"></div>
-              <div class="swiper-button-next position-absolute"></div>
-            </div>
-          </div>
-        </div> -->
   </section>
 
   <section class="request-sec">
@@ -606,6 +550,137 @@
     </div>
   </section>
 
+
+  <footer class="mt-5">
+    <div class="bg--section footer-section">
+      <div class="container">
+        <div class="row footer-content d-flex justify-content-center align-items-start">
+          <div class="col-6 col-md-3 col-lg-3 col-xl-3 mt-5">
+            <span>دفتر تهران:</span>
+            <div class="footer-info d-flex mt-4">
+              <div class="footer-icon">
+                <i class="fa-solid fa-location-dot text-white"></i>
+              </div>
+              <p class="contact-info mx-2 text-white">
+                خیابان شریعتی ، روبروی پارک شریعتی، کوچه نورمحمدی، پلاک ۳۲، طبقه ۲
+              </p>
+            </div>
+            <div class="footer-info d-flex">
+              <div class="footer-icon">
+                <i class="fa-solid fa-phone-volume text-white"></i>
+              </div>
+              <p class="contact-info mx-2 text-white">
+                02126710865
+              </p>
+            </div>
+            <div class="footer-info d-flex">
+              <div class="footer-icon">
+                <i class="fa-solid fa-mobile-screen text-white"></i>
+              </div>
+              <p class="contact-info mx-2 text-white">
+                09120406858
+              </p>
+            </div>
+            <div class="footer-info d-flex">
+              <div class="footer-icon">
+                <i class="fa-regular fa-envelope-open text-white"></i>
+              </div>
+              <p class="contact-info mx-2 text-justify text-white">
+                info@nimadco.com
+              </p>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-3 col-xl-3 mt-5">
+            <span>دفتر ساری:</span>
+            <div class="footer-info d-flex mt-4">
+              <div class="footer-icon">
+                <i class="fa-solid fa-location-dot text-white"></i>
+              </div>
+              <p class="contact-info mx-2 text-white">
+                خیابان شریعتی ، روبروی پارک شریعتی، کوچه نورمحمدی، پلاک ۳۲، طبقه ۲
+              </p>
+            </div>
+            <div class="footer-info d-flex">
+              <div class="footer-icon">
+                <i class="fa-solid fa-phone-volume text-white"></i>
+              </div>
+              <p class="contact-info mx-2 text-white">
+                02126710865
+              </p>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-3 col-xl-3 mt-5">
+            <span>کارخانه‌:</span>
+            <div class="footer-info d-flex mt-4">
+              <div class="footer-icon">
+                <i class="fa-solid fa-location-dot text-white"></i>
+              </div>
+              <p class="contact-info mx-2 text-white">
+                خیابان شریعتی ، روبروی پارک شریعتی، کوچه نورمحمدی، پلاک ۳۲، طبقه ۲
+              </p>
+            </div>
+            <div class="footer-info d-flex">
+              <div class="footer-icon">
+                <i class="fa-solid fa-phone-volume text-white"></i>
+              </div>
+              <p class="contact-info mx-2 text-white">
+                02126710865
+              </p>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-lg-3 col-xl-3 mt-5">
+            <span>دفتر عمان:</span>
+            <div class="footer-info d-flex mt-4">
+              <div class="footer-icon">
+                <i class="fa-solid fa-location-dot icon-color text-white"></i>
+              </div>
+              <p class="contact-info mx-2 text-white">
+                خیابان شریعتی ، روبروی پارک شریعتی، کوچه نورمحمدی، پلاک ۳۲، طبقه ۲
+              </p>
+            </div>
+            <div class="footer-info d-flex">
+              <div class="footer-icon">
+                <i class="fa-solid fa-phone-volume text-white"></i>
+              </div>
+              <p class="contact-info mx-2 text-white">
+                02126710865
+              </p>
+            </div>
+          </div>
+
+          <div class="footer-about mt-4 d-flex align-items-center">
+            <div class="col-12 col-md-9 col-lg-9 col-xl-9">
+              <div class="footer-logo d-flex">
+                <img src="/Nimad/assets/img/nimadlogo.png" alt="footer-logo" srcset="" class="footer-logo-img">
+                <p class="text-white mx-3">
+                  ما در شرکت نیماد از سال ۱۳۸۶ فعالیت خود را آغاز کردیم و مجری طرح های اسکلت فلزی سازه ها و سوله های صنعتی، همچنین پروژه های جرثقیل سقفی و ابنیه هستیم. چشم انداز ما ارتقای سطح کیفی کسب و کارهای شماست و همواره تلاش می کنیم راه حل هایی برای برآوردن نیازهای منحصر به فرد شما ارائه دهیم. ما در نیماد به پیشرفت تحول و بهبود خدمات کسب و کار شما می اندیشیم
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-3 col-lg-3 col-xl-3 d-flex flex-column align-items-center gap-2">
+              <div class="footer-socila-media ">
+                <a href="#">
+                  <img src="/Nimad/assets/img/instagram.png" alt="instagram" class="bg-white rounded-circle p-1">
+                </a>
+                <a href="#">
+                  <img src="/Nimad/assets/img/Telegram.png" alt="telegram" class="bg-white rounded-circle p-1">
+                </a>
+                <a href="#">
+                  <img src="/Nimad/assets/img/Whatsapp.png" alt="whatsapp" class="bg-white rounded-circle p-1">
+                </a>
+              </div>
+              <div class="copy-write-txt text-center mt-2 d-flex align-items-center">
+                <i class="fa-regular fa-copyright text-white"></i>
+                <span class="copy-write mx-1">تمام حقوق این سایت به شرکت نیماد تعلق دارد.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  
   <script src="./assets/scripts/bootstrap.bundle.min.js"></script>
   <script src="./assets/swiper/js/swiper-bundle.min.js"></script>
   <script src="./assets/scripts/script.js"></script>

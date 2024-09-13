@@ -81,7 +81,7 @@ span {
     color: var(--blog-color);
 }
 
-.navbar-logo .logo {
+.navbar-logo .logo,.footer-logo .footer-logo-img{
     width: 48px;
     max-width: 250px;
     height: 48px;
@@ -101,9 +101,13 @@ span {
 }
 
 .register-login {
-    width: 98px;
+    width: 105px;
     height: 32px;
     border-radius: 16px;
+}
+
+.register-login i{
+    font-size: 12px;
 }
 
 .register-login span a {
@@ -133,11 +137,12 @@ span {
     padding-left: 6px;
 }
 
-.slider {
-    background-color: var(--primary-color);
-    height: 300px;
-    border-radius: 16px;
-}
+
+
+
+
+
+
 
 .about-section h3 {
     color: var(--font-color);
@@ -363,9 +368,31 @@ span {
     font-size: 12px;
 }
 
+.footer-content .footer-info p{
+    font-size: 12px;
+    line-height: 1.5rem;
+}
+  
+.footer-about .footer-logo p,
+.footer-about .copy-write{
+    text-align: justify;
+    font-size: 12px;
+    line-height: 1.5rem;
+}
+
+.footer-section{
+    border-radius: 20px 20px 0 0;
+}
+
+.footer-socila-media img{
+    width: 26px;
+    height: 26px;
+}
 
 
-.inner-curve-right {
+
+
+/* .inner-curve-right {
     --r: 10px;  
     --s: 30px;  
     --a: 20deg;
@@ -405,4 +432,4 @@ span {
       radial-gradient(var(--s) at calc(-1*sin(var(--a))*var(--s)) 50% ,
         #0000 100%,#000 calc(100% + 1px)) calc(var(--r)*(1 - sin(var(--a)))) 0 no-repeat,
       linear-gradient(#000 calc(50% - var(--_d)),#0000 0 calc(50% + var(--_d)),#000 0);
-  }
+  } */
