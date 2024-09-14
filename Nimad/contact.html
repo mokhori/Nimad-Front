@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./assets/css/bootstrap.rtl.min.css">
+  <link rel="stylesheet" href="./assets/swiper/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./assets/fonts/Roboto/Roboto-Regular.ttf">
+  <link rel="stylesheet" href="./assets/fonts/fontawesome-web/fontawesome-free-6.6.0-web/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/fonts.css">
+  <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.6.0-web/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Nimad</title>
+</head>
+
+<body dir="rtl">
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand navbar-logo" href="index.html">
+            <img src="./assets/img/nimadlogo.png" alt="logo" class="img-fluid logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">پروژه ها</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">گواهینامه ها</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> خدمات ما</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">تماس با ما</a>
+              </li>
+            </ul>
+            <div class="d-flex justify-content-center align-items-center gap-2">
+              <div class="phone-number">
+                <a href="tel:021-26710865">021-26710865</a>
+              </div>
+              <div class="dropdown-center change-lang d-flex">
+                <a class="nav-link dropdown-toggle d-flex justify-content-center align-items-center flex-row-reverse gap-3"
+                  href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="./assets/img/64px-Flag_of_Iran.svg.png" alt="iran-flag" srcset="" class="rounded-circle">
+                </a>
+                <ul class="dropdown-menu change-lang-menu" aria-labelledby="languageDropdown">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <img src="./assets/img/64px-Flag_of_Iran.svg.png" alt="iran-flag" srcset="" class="rounded-circle">
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      <img src="./assets/img/64px-Flag_of_the_United_Kingdom.png" alt="england-flag" srcset=""
+                        class="rounded-circle">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="register-login bg-primary d-flex align-items-center justify-content-center">
+                <span class="d-flex align-items-center justify-content-center">
+                  <a href="#">ورود / ثبت نام</a>
+                  <i class="fa-solid fa-arrow-left mx-1"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <hr class="header-line m-0">
+      </div>
+    </header>
+
+    <section class="mt-4">
+        <div class="container">
+            <div class="above-link">
+                <a href="index.html" class="link--color" style="font-size: 12px;">خانه</a>
+                <i class="fa-solid fa-chevron-left p-1" style="font-size: 10px;"></i>
+                <a href="contact.html" class="link--color" style="font-size: 12px;">تماس با ما</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="mt-4">
+        <div class="container">
+            <div class="row m-0">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 pe-0">
+                    <strong>سوال یا درخواستی دارید؟</strong>
+                    <p style="font-size: 11px;" class="font-color mt-2">پیام خود را برای ما ارسال کنید. در سریع‌ترین زمان پاسخگوی شما خواهیم بود.</p>
+
+                    <form class="contact-us-form" id="ContactUs">
+                        <div class="d-flex gap-3 mb-3">
+                          <input type="text" class="form-control input--bg border-0 rounded-3" id="firstName" placeholder="نام">
+                          <input type="text" class="form-control input--bg border-0 rounded-3" id="lastName" placeholder="نام خانوادگی">
+                        </div>
+                        <div class="d-flex gap-3 mb-3">
+                            <input type="text" class="form-control input--bg border-0 rounded-3" id="Mobile" placeholder="شماره همراه">
+                            <input type="text" class="form-control input--bg border-0 rounded-3" id="Emial" placeholder="ایمیل">
+                        </div>
+                        <div class="message-box">
+                            <textarea class="form-control input--bg border-0 rounded-bottom-0 rounded-top-3" id="messageArea" rows="3" placeholder="متن پیام..."></textarea>
+                            <div class="submit-btn input--bg p-2 rounded-bottom-3">
+                                <button type="submit" class="btn bg-primary text-white rounded-3" style="font-size: 14px;">ارسال پیام</button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="socila-media-box mt-4">
+                        <div class="input--bg rounded-3">
+                            <strong class="d-flex justify-content-center p-3">نیماد در شبکه‌های اجتماعی:</strong>
+                            <div class="follow-on-social d-flex justify-content-center gap-2 pb-4">
+                                <div class="whatsapp social-img bg-white rounded-3 d-flex justify-content-center align-items-center">
+                                    <a href="#">
+                                        <img src="/Nimad/assets/img/Whatsapp.png"  alt="whatsapp" srcset="">
+                                        <span style="color:#25d366;font-size:12px">واتساپ</span>
+                                    </a>
+                                </div>
+                                <div class="telegram social-img bg-white rounded-3 d-flex justify-content-center align-items-center">
+                                    <a href="#">
+                                        <img src="/Nimad/assets/img/Telegram.png"  alt="telegram" srcset="">
+                                        <span style="color:#2aabee;font-size:12px">تلگرام</span>
+                                    </a>
+                                </div>
+                                <div class="instagram social-img bg-white rounded-3 d-flex justify-content-center align-items-center">
+                                    <a href="#">
+                                        <img src="/Nimad/assets/img/instagram.png" alt="instagram" srcset="">
+                                        <span style="color:#e21484;font-size:12px">اینستاگرام</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6 pe-0">
+                    <div class="row m-0 locations">
+                      <div class="col-12 col-md-6 col-lg-6 col-xl-6 no-padding position-relative map-frame">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31740793.665716503!2d44.03292316937886!3d32.427908045393675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e0505ed1da971%3A0xa52694586902e38d!2sIran!5e0!3m2!1sen!2s!4v1694692237275!5m2!1sen!2s"
+                          width="100%" height="200" style="border:3px solid #4182ff; border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                          <span class="text-black d-flex justify-content-center bg-white rounded-3 font-color">دفتر تهران</span>
+                      </div>
+                      <div class="col-12 col-md-6 col-lg-6 col-xl-6 pe-0 no-padding position-relative map-frame custom-margin-second-frame">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31740793.665716503!2d44.03292316937886!3d32.427908045393675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e0505ed1da971%3A0xa52694586902e38d!2sIran!5e0!3m2!1sen!2s!4v1694692237275!5m2!1sen!2s"
+                          width="100%" height="200" style="border:3px solid #4182ff; border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                          <span class="text-black d-flex justify-content-center bg-white rounded-3 font-color">دفتر ساری</span>
+                      </div>
+            
+                      <div class="col-12 col-md-6 col-lg-6 col-xl-6 mt-3 no-padding position-relative map-frame custom-margin">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31740793.665716503!2d44.03292316937886!3d32.427908045393675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e0505ed1da971%3A0xa52694586902e38d!2sIran!5e0!3m2!1sen!2s!4v1694692237275!5m2!1sen!2s"
+                          width="100%" height="200" style="border:3px solid #4182ff; border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                          <span class="text-black d-flex justify-content-center bg-white rounded-3 font-color">کارخانه‌</span>
+                      </div>
+                      <div class="col-12 col-md-6 col-lg-6 col-xl-6 mt-3 pe-0 no-padding position-relative map-frame custom-margin">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31740793.665716503!2d44.03292316937886!3d32.427908045393675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e0505ed1da971%3A0xa52694586902e38d!2sIran!5e0!3m2!1sen!2s!4v1694692237275!5m2!1sen!2s"
+                          width="100%" height="200" style="border:3px solid #4182ff; border-radius: 12px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                          <span class="text-black d-flex justify-content-center bg-white rounded-3 font-color">دفتر عمان</span>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+
+    </section>
+            
+
+
+
+
+
+
+
+
+    <footer class="mt-5">
+        <div class="bg--section footer-section">
+          <div class="container">
+            <div class="row footer-content d-flex justify-content-center align-items-start">
+              <div class="col-12 col-md-3 col-lg-3 col-xl-3 mt-5">
+                <span>دفتر تهران:</span>
+                <div class="footer-info d-flex mt-4">
+                  <div class="footer-icon">
+                    <i class="fa-solid fa-location-dot text-white"></i>
+                  </div>
+                  <p class="contact-info mx-2 text-white">
+                    خیابان شریعتی ، روبروی پارک شریعتی، کوچه نورمحمدی، پلاک ۳۲، طبقه ۲
+                  </p>
+                </div>
+                <div class="footer-info d-flex">
+                  <div class="footer-icon">
+                    <i class="fa-solid fa-phone-volume text-white"></i>
+                  </div>
+                  <p class="contact-info mx-2 text-white">
+                    02126710865
+                  </p>
+                </div>
+                <div class="footer-info d-flex">
+                  <div class="footer-icon">
+                    <i class="fa-solid fa-mobile-screen text-white"></i>
+                  </div>
+                  <p class="contact-info mx-2 text-white">
+                    09120406858
+                  </p>
+                </div>
+                <div class="footer-info d-flex">
+                  <div class="footer-icon">
+                    <i class="fa-regular fa-envelope-open text-white"></i>
+                  </div>
+                  <p class="contact-info mx-2 text-justify text-white">
+                    info@nimadco.com
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-3 col-lg-3 col-xl-3 mt-5">
+                <span>دفتر ساری:</span>
+                <div class="footer-info d-flex mt-4">
+                  <div class="footer-icon">
+                    <i class="fa-solid fa-location-dot text-white"></i>
+                  </div>
+                  <p class="contact-info mx-2 text-white">
+                    خیابان شریعتی ، روبروی پارک شریعتی، کوچه نورمحمدی، پلاک ۳۲، طبقه ۲
+                  </p>
+                </div>
+                <div class="footer-info d-flex">
+                  <div class="footer-icon">
+                    <i class="fa-solid fa-phone-volume text-white"></i>
+                  </div>
+                  <p class="contact-info mx-2 text-white">
+                    02126710865
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-3 col-lg-3 col-xl-3 mt-5">
+                <span>کارخانه‌:</span>
+                <div class="footer-info d-flex mt-4">
+                  <div class="footer-icon">
+                    <i class="fa-solid fa-location-dot text-white"></i>
+                  </div>
+                  <p class="contact-info mx-2 text-white">
+                    خیابان شریعتی ، روبروی پارک شریعتی، کوچه نورمحمدی، پلاک ۳۲، طبقه ۲
+                  </p>
+                </div>
+                <div class="footer-info d-flex">
+                  <div class="footer-icon">
+                    <i class="fa-solid fa-phone-volume text-white"></i>
+                  </div>
+                  <p class="contact-info mx-2 text-white">
+                    02126710865
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-3 col-lg-3 col-xl-3 mt-5">
+                <span>دفتر عمان:</span>
+                <div class="footer-info d-flex mt-4">
+                  <div class="footer-icon">
+                    <i class="fa-solid fa-location-dot icon-color text-white"></i>
+                  </div>
+                  <p class="contact-info mx-2 text-white">
+                    خیابان شریعتی ، روبروی پارک شریعتی، کوچه نورمحمدی، پلاک ۳۲، طبقه ۲
+                  </p>
+                </div>
+                <div class="footer-info d-flex">
+                  <div class="footer-icon">
+                    <i class="fa-solid fa-phone-volume text-white"></i>
+                  </div>
+                  <p class="contact-info mx-2 text-white">
+                    02126710865
+                  </p>
+                </div>
+              </div>
+    
+              <div class="footer-about mt-4 d-flex align-items-center">
+                <div class="col-12 col-md-9 col-lg-9 col-xl-9">
+                  <div class="footer-logo d-flex">
+                    <img src="/Nimad/assets/img/nimadlogo.png" alt="footer-logo" srcset="" class="footer-logo-img">
+                    <p class="text-white mx-3">
+                      ما در شرکت نیماد از سال ۱۳۸۶ فعالیت خود را آغاز کردیم و مجری طرح های اسکلت فلزی سازه ها و سوله های صنعتی، همچنین پروژه های جرثقیل سقفی و ابنیه هستیم. چشم انداز ما ارتقای سطح کیفی کسب و کارهای شماست و همواره تلاش می کنیم راه حل هایی برای برآوردن نیازهای منحصر به فرد شما ارائه دهیم. ما در نیماد به پیشرفت تحول و بهبود خدمات کسب و کار شما می اندیشیم
+                    </p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 col-xl-3 d-flex flex-column align-items-center gap-2">
+                  <div class="footer-socila-media ">
+                    <a href="#">
+                      <img src="/Nimad/assets/img/instagram.png" alt="instagram" class="bg-white rounded-circle p-1">
+                    </a>
+                    <a href="#">
+                      <img src="/Nimad/assets/img/Telegram.png" alt="telegram" class="bg-white rounded-circle p-1">
+                    </a>
+                    <a href="#">
+                      <img src="/Nimad/assets/img/Whatsapp.png" alt="whatsapp" class="bg-white rounded-circle p-1">
+                    </a>
+                  </div>
+                  <div class="copy-write-txt text-center mt-2 d-flex align-items-center">
+                    <i class="fa-regular fa-copyright text-white"></i>
+                    <span class="copy-write mx-1">تمام حقوق این سایت به شرکت نیماد تعلق دارد.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </footer>
+      
+      
+    <script src="./assets/scripts/bootstrap.bundle.min.js"></script>
+    <script src="./assets/swiper/js/swiper-bundle.min.js"></script>
+    <script src="./assets/scripts/script.js"></script>
+</body>
+</html>
