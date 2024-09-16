@@ -12,7 +12,7 @@
     --content-color: #67737e;
     --font-size: 13px;
     --blog-color: #737373;
-    --input-bg:#f2f2f2;
+    --input-bg: #f2f2f2;
 }
 
 body {
@@ -35,7 +35,7 @@ a {
     text-decoration: none;
 }
 
-.link--color{
+.link--color {
     color: var(--content-color);
 }
 
@@ -70,9 +70,10 @@ span {
     --secondary-font-color: #fff;
 }
 
-.input--bg{
+.input--bg {
     background-color: var(--input-bg);
 }
+
 .font-color {
     color: var(--font-color);
 }
@@ -89,7 +90,8 @@ span {
     color: var(--blog-color);
 }
 
-.navbar-logo .logo,.footer-logo .footer-logo-img{
+.navbar-logo .logo,
+.footer-logo .footer-logo-img {
     width: 48px;
     max-width: 250px;
     height: 48px;
@@ -114,7 +116,7 @@ span {
     border-radius: 16px;
 }
 
-.register-login i{
+.register-login i {
     font-size: 12px;
 }
 
@@ -361,7 +363,7 @@ span {
     justify-content: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     cursor: pointer;
-    top:calc(50% + 6px);
+    top: calc(50% + 6px);
 }
 
 .my-project-swiper .swiper-button-prev::after,
@@ -369,23 +371,23 @@ span {
     font-size: 12px;
 }
 
-.footer-content .footer-info p{
+.footer-content .footer-info p {
     font-size: 12px;
     line-height: 1.5rem;
 }
-  
+
 .footer-about .footer-logo p,
-.footer-about .copy-write{
+.footer-about .copy-write {
     text-align: justify;
     font-size: 12px;
     line-height: 1.5rem;
 }
 
-.footer-section{
+.footer-section {
     border-radius: 20px 20px 0 0;
 }
 
-.footer-socila-media img{
+.footer-socila-media img {
     width: 26px;
     height: 26px;
 }
@@ -393,76 +395,74 @@ span {
 
 
 
-/* .inner-curve-right {
-    --r: 10px;  
-    --s: 30px;  
+.inner-curve-right {
+    --r: 10px;
+    --s: 30px;
     --a: 20deg;
-  
+
     width: 100%;
     aspect-ratio: 1;
     background: transparent;
     border-radius: var(--r);
-    --_m:/var(--r) calc(2*var(--r)) no-repeat
-      radial-gradient(100% 50% at left,#000 calc(100% - 1px),#0000);
-    --_d:(var(--s) + var(--r))*cos(var(--a));
+    --_m: /var(--r) calc(2*var(--r)) no-repeat radial-gradient(100% 50% at left, #000 calc(100% - 1px), #0000);
+    --_d: (var(--s) + var(--r))*cos(var(--a));
     mask:
-      100% calc(50% + var(--_d)) var(--_m),100% calc(50% - var(--_d)) var(--_m),
-      radial-gradient(var(--s) at calc(100% + sin(var(--a))*var(--s)) 50% ,
-        #0000 100%,#000 calc(100% + 1px)) calc(var(--r)*(sin(var(--a)) - 1)) 0 no-repeat,
-      linear-gradient(#000 calc(50% - var(--_d)),#0000 0 calc(50% + var(--_d)),#000 0);
-  }
+        100% calc(50% + var(--_d)) var(--_m), 100% calc(50% - var(--_d)) var(--_m),
+        radial-gradient(var(--s) at calc(100% + sin(var(--a))*var(--s)) 50%,
+            #0000 100%, #000 calc(100% + 1px)) calc(var(--r)*(sin(var(--a)) - 1)) 0 no-repeat,
+        linear-gradient(#000 calc(50% - var(--_d)), #0000 0 calc(50% + var(--_d)), #000 0);
+}
 
 
-  
+
 .inner-curve-left {
-    --r: 10px;  
-    --s: 30px;  
-    --a: 20deg; 
-  
+    --r: 10px;
+    --s: 30px;
+    --a: 20deg;
+
     width: 100%;
     height: 100%;
 
     aspect-ratio: 1;
     background: transparent;
     border-radius: var(--r);
-    --_m:/var(--r) calc(2*var(--r)) no-repeat
-      radial-gradient(100% 50% at right,#000 calc(100% - 1px),#0000);
-    --_d:(var(--s) + var(--r))*cos(var(--a));
+    --_m: /var(--r) calc(2*var(--r)) no-repeat radial-gradient(100% 50% at right, #000 calc(100% - 1px), #0000);
+    --_d: (var(--s) + var(--r))*cos(var(--a));
     mask:
-      0 calc(50% + var(--_d)) var(--_m),0 calc(50% - var(--_d)) var(--_m),
-      radial-gradient(var(--s) at calc(-1*sin(var(--a))*var(--s)) 50% ,
-        #0000 100%,#000 calc(100% + 1px)) calc(var(--r)*(1 - sin(var(--a)))) 0 no-repeat,
-      linear-gradient(#000 calc(50% - var(--_d)),#0000 0 calc(50% + var(--_d)),#000 0);
-  } */
+        0 calc(50% + var(--_d)) var(--_m), 0 calc(50% - var(--_d)) var(--_m),
+        radial-gradient(var(--s) at calc(-1*sin(var(--a))*var(--s)) 50%,
+            #0000 100%, #000 calc(100% + 1px)) calc(var(--r)*(1 - sin(var(--a)))) 0 no-repeat,
+        linear-gradient(#000 calc(50% - var(--_d)), #0000 0 calc(50% + var(--_d)), #000 0);
+}
 
-.header-line{
+.header-line {
     height: 0.5px;
     background-color: #D9D9D9;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
-.above-link i{
+.above-link i {
     color: var(--content-color) !important;
 }
 
 #ContactUs input::placeholder,
-#ContactUs textarea::placeholder{
-  font-size: 11px;
-  color:var(--secondry-font-color);
+#ContactUs textarea::placeholder {
+    font-size: 11px;
+    color: var(--secondry-font-color);
 }
 
 #ContactUs input:focus,
-#ContactUs textarea:focus{
-  outline: none !important;
-  box-shadow: none !important;
-  background-color: #f2f2f2;
+#ContactUs textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: #f2f2f2;
 }
 
-#ContactUs textarea{
+#ContactUs textarea {
     resize: none;
 }
 
-.message-box .submit-btn{
+.message-box .submit-btn {
     text-align: left;
 }
 
@@ -471,12 +471,12 @@ span {
     height: 30px;
 }
 
-.socila-media-box .social-img img{
+.socila-media-box .social-img img {
     width: 15px;
     height: 15px;
 }
 
-.map-frame span{
+.map-frame span {
     width: 100px;
     height: 35px;
     position: absolute;
@@ -491,24 +491,54 @@ span {
     font-size: 11px;
 }
 
-.custom-margin{
+.custom-margin {
     margin-top: 2rem !important;
 }
 
 @media only screen and (max-width: 768px) {
-    .footer-about{
+    .footer-about {
         flex-direction: column;
     }
-    .no-padding{
+
+    .no-padding {
         padding: 0 !important;
     }
-    .locations{
+
+    .locations {
         margin-top: 3rem !important;
     }
-    .custom-margin-second-frame{
+
+    .custom-margin-second-frame {
         margin-top: 2rem !important;
     }
 
-
-
 }
+
+
+.main-swiper .btn-circle-primary {
+    background-color: #4182ff26;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); */
+    cursor: pointer;
+    top: calc(50% + 3px);
+}
+
+.main-swiper .swiper-button-prev::after,
+.main-swiper .swiper-button-next::after {
+    font-size: 14px; 
+}
+
+
+.main-swiper .swiper-button-prev{
+    left:-18px !important;
+}
+
+.main-swiper .swiper-button-next{
+    right:-18px !important;
+}
+
