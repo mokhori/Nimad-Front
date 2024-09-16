@@ -495,25 +495,6 @@ span {
     margin-top: 2rem !important;
 }
 
-@media only screen and (max-width: 768px) {
-    .footer-about {
-        flex-direction: column;
-    }
-
-    .no-padding {
-        padding: 0 !important;
-    }
-
-    .locations {
-        margin-top: 3rem !important;
-    }
-
-    .custom-margin-second-frame {
-        margin-top: 2rem !important;
-    }
-
-}
-
 
 .main-swiper .btn-circle-primary {
     background-color: #4182ff26;
@@ -552,5 +533,21 @@ span {
 
 .project-swiper .project-info-text h6{
     line-height: 30px;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .no-padding {
+        padding: 0 !important;
+    }
+
+    .locations {
+        margin-top: 3rem !important;
+    }
+
+    .custom-margin-second-frame {
+        margin-top: 2rem !important;
+    }
 
 }
