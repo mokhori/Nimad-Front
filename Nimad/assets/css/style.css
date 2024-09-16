@@ -511,27 +511,27 @@ span {
 
 .main-swiper .swiper-button-prev::after,
 .main-swiper .swiper-button-next::after {
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 
-.main-swiper .swiper-button-prev{
-    left:-18px !important;
+.main-swiper .swiper-button-prev {
+    left: -18px !important;
 }
 
-.main-swiper .swiper-button-next{
-    right:-18px !important;
+.main-swiper .swiper-button-next {
+    right: -18px !important;
 }
 
 
 
-.project-swiper .project-info-text{
-    height:30px;
-    top:-15px;
+.project-swiper .project-info-text {
+    height: 30px;
+    top: -15px;
     width: 80%;
 }
 
-.project-swiper .project-info-text h6{
+.project-swiper .project-info-text h6 {
     line-height: 30px;
 
 }
@@ -548,6 +548,21 @@ span {
 
     .custom-margin-second-frame {
         margin-top: 2rem !important;
+    }
+
+
+    .h-md-auto {
+        height: auto !important;
+    }
+
+
+
+    .request-from .form .input-form,
+    .request-from .request-from-dropdown button,
+    .request-from .request-from-dropdown {
+        width:100%;
+        padding-top:10px ;
+        padding-bottom:10px ;
     }
 
 }
