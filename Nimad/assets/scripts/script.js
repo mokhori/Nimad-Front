@@ -101,3 +101,12 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   });
 });
+
+
+$('.custom-input').on("click", function() {
+  $(this).closest('.custom-input-group').find('input, span').addClass('login-form-custom-style');
+});
+
+$('.custom-input').on("blur", function() {
+  $(this).closest('.custom-input-group').find('input, span').removeClass('login-form-custom-style');
+});

@@ -15,6 +15,8 @@
     --input-bg: #f2f2f2;
 }
 
+
+
 body {
     font-family: var(--font-family);
     font-size: var(--font-size-base);
@@ -143,8 +145,7 @@ span {
 }
 
 .change-lang-menu .dropdown-item {
-    text-align: left;
-    padding-left: 6px;
+    /* text-align: left; */
 }
 
 .about-section h3 {
@@ -533,8 +534,121 @@ span {
 
 .project-swiper .project-info-text h6 {
     line-height: 30px;
-
 }
+
+
+
+#loginModal .input-group,
+.login-btn,
+.login-google-btn{
+    height: 40px;
+    font-size: 12px;
+}
+
+.login-google-btn{
+    border: 1px solid #d9d9d9;
+}
+
+.login-google-btn:focus{
+    border: 1px solid var(--primary-color) !important;
+}
+
+.google-img{
+    width: 15px;
+    height: 15px;
+}
+
+.remember-pass input:focus{
+    box-shadow: none !important;
+}
+
+#loginModal .input-group input,
+#loginModal .input-group span{
+    border: none !important;
+    font-size: 12px;
+    box-shadow: none !important; 
+}
+
+#loginModal .input-group span i{
+    font-size: 12px;
+}
+
+.font-size-span{
+    font-size: 11px;
+}
+
+
+.login-form-custom-style{
+    border:1px solid var(--primary-color);
+}
+
+.rememberpass-checkbox:focus{
+    box-shadow: none !important;
+}
+
+#loginRegisterModal .modal-dialog{
+    width: 25% !important;
+}
+
+
+.service-top-section{
+    background-color: rgba(65, 130, 255, 0.12);
+}
+
+.service-top-section h1{
+    font-size: 15px;
+}
+
+.service-top-section p{
+    font-size: 12px;
+}
+
+.services-content-title p{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.custom-bullet span {
+    font-size: 2em;
+    margin-top: 0.5rem;
+}
+
+.services-content-desc p{
+    font-size: 10px;
+    text-align: justify;
+    line-height: 1.3rem;
+}
+
+.request-btn{
+    font-size: 11px;
+}
+
+.service-image img{
+    height: 255px;
+    object-fit: cover;
+}
+
+
+.shape {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    background-color: rgba(65, 130, 255, 0.12);
+    z-index: -1;
+}
+
+.bottom-right {
+    bottom: -23px;
+    right: -28px;
+}
+
+.top-left {
+    top: -23px;
+    left: -28px;
+}
+
+
 
 
 @media only screen and (max-width: 768px) {

@@ -19,7 +19,7 @@
 <body dir="rtl">
   <header>
     <nav class="navbar navbar-expand-lg">
-      <div class="container">
+      <div class="container p-0">
         <a class="navbar-brand navbar-logo" href="#">
           <img src="./assets/img/nimadlogo.png" alt="logo" class="img-fluid logo">
         </a>
@@ -36,7 +36,7 @@
               <a class="nav-link" href="#">گواهینامه ها</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"> خدمات ما</a>
+              <a class="nav-link" href="services.html"> خدمات ما</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/Nimad/contact.html">تماس با ما</a>
@@ -53,21 +53,22 @@
               </a>
               <ul class="dropdown-menu change-lang-menu" aria-labelledby="languageDropdown">
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a class="dropdown-item d-flex flex-row-reverse px-1" href="#">
                     <img src="./assets/img/64px-Flag_of_Iran.svg.png" alt="iran-flag" srcset="" class="rounded-circle">
+                    <span class="font-color px-1">Fa</span>
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
-                    <img src="./assets/img/64px-Flag_of_the_United_Kingdom.png" alt="england-flag" srcset=""
-                      class="rounded-circle">
+                  <a class="dropdown-item d-flex flex-row-reverse px-1" href="#">
+                    <img src="./assets/img/64px-Flag_of_the_United_Kingdom.png" alt="england-flag" srcset="" class="rounded-circle">
+                    <span class="font-color px-1">En</span>
                   </a>
                 </li>
               </ul>
             </div>
             <div class="register-login bg-primary d-flex align-items-center justify-content-center">
               <span class="d-flex align-items-center justify-content-center">
-                <a href="#">ورود / ثبت نام</a>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#loginRegisterModal">ورود / ثبت نام</a>
                 <i class="fa-solid fa-arrow-left mx-1"></i>
               </span>
             </div>
@@ -78,7 +79,7 @@
   </header>
 
   <section>
-    <div class="container">
+    <div class="container p-0">
       <div class="row no-gutters">
         <div class="main-swiper position-relative p-0">
           <div class="swiper header-swiper">
@@ -115,7 +116,7 @@
 
 
   <section class="mt-5">
-    <div class="container">
+    <div class="container p-0">
       <div class="row justify-content-between">
         <div class="col-12 col-md-7 col-lg-7 col-xxl-7 about-section">
           <h3>از نیماد بیشتر بدانید</h3>
@@ -162,7 +163,7 @@
   </section>
 
   <section class="mt-5">
-    <div class="container">
+    <div class="container p-0">
       <div class="text-center mb-4">
         <h5>خدمات نیماد</h5>
         <p class="text--secondary">آنچه طرح و ساخت نیماد در همراهی با شما ارائه می‌دهد.</p>
@@ -255,7 +256,7 @@
       </div>
 
       <div class="my-project-swiper justify-content-center align-items-center d-flex">
-        <div class="position-relative container">
+        <div class="position-relative container p-0">
           <div class="swiper project-swiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -329,7 +330,7 @@
   </section>
 
   <section class="request-sec">
-    <div class="container">
+    <div class="container p-0>
       <div class="row">
         <div class="request-section py-md-0 py-5 bg--section rounded-4">
           <div class="d-flex flex-md-row flex-column align-items-md-stretch align-items-center request-img-text justify-content-center gap-5 h-md-auto">
@@ -369,13 +370,6 @@
       </div>
     </div>
   </section>
-
-
-
-
-  
-
-
 
 
   <section class="mt-5">
@@ -532,7 +526,7 @@
   </section>
 
   <section class="mt-5">
-    <div class="container">
+    <div class="container p-0">
       <div class="text-center mb-4">
         <h5>گواهی‌نامه و ایزو</h5>
       </div>
@@ -616,7 +610,7 @@
 
   <footer class="mt-5">
     <div class="bg--section footer-section">
-      <div class="container">
+      <div class="container p-0">
         <div class="row footer-content d-flex justify-content-center align-items-start">
           <div class="col-12 col-md-3 col-lg-3 col-xl-3 mt-5">
             <span>دفتر تهران:</span>
@@ -747,7 +741,64 @@
   </footer>
 
 
+  <!-- LoginModal -->
+  <div class="modal fade" id="loginRegisterModal" tabindex="-1" aria-labelledby="loginRegisterModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header d-flex justify-content-center align-items-center border-bottom-0">
+          <h5 class="modal-title fs-6" id="loginRegisterModalLabel">ورود/ثبت نام</h5>
+        </div>
+        <div class="modal-body">
+          <form class="loginregister" id="loginModal">
+            <div class="mb-3">
+                <div class="input-group custom-input-group rounded-3">
+                    <input type="email" class="form-control custom-input rounded-start-3 border-end-0 input--bg px-2" id="email" placeholder="info@gmail.com">
+                    <span class="rounded-end-3 input--bg border-start-0 p-2 d-flex align-items-center">
+                        <i class="fas fa-user text-primary"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="mb-3">
+              <div class="input-group custom-input-group rounded-3">
+                <span class="rounded-start-3 input--bg border-end-0 p-2 d-flex align-items-center">
+                  <i class="fa-solid fa-eye text--secondary border-end-0" id="togglePassword"></i>
+                </span>
+                <input type="password" class="form-control custom-input border-start-0 border-end-0 input--bg px-0" id="password" placeholder="">
+                <span class="rounded-end-3 input--bg border-start-0 p-2 d-flex align-items-center">
+                  <i class="fa-solid fa-lock text-primary"></i>
+                </span>
+              </div>
+              <div class="text-under-button d-flex justify-content-between align-items-center">
+              
+                <a href="#" class="text-primary text-decoration-underline font-color font-size-span mt-2">
+                  فراموشی رمز عبور
+                </a>
+
+                <div class="d-flex align-items-center flex-row-reverse">
+                  <input class="form-check-input rememberpass-checkbox" type="checkbox" value="" id="flexCheckChecked">
+                  <label class="form-check-label font-color font-size-span mt-2 me-1" for="flexCheckChecked">
+                    یادآوری رمز عبور
+                  </label>
+                </div>
+
+              </div>
+              
+            </div>
+            <button type="submit" class="btn btn-primary w-100 rounded-3 login-btn">ورود</button>
+            <p class="font-color text-center font-size-span m-3">
+              حساب کاربری ندارید؟ <a href="#" class="text-primary text-decoration-underline">اینجا ثبت نام کنید</a>
+            </p>
+            <button type="submit" class="btn w-100 rounded-3 login-google-btn border">ورود با حساب گوگل
+              <img src="/Nimad/assets/img/pngegg.png" alt="google" srcset="" class="google-img">
+            </button>
+          </form>    
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="./assets/scripts/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   <script src="./assets/swiper/js/swiper-bundle.min.js"></script>
   <script src="./assets/scripts/script.js"></script>
 </body>
