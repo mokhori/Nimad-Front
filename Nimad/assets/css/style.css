@@ -59,8 +59,8 @@ span {
     font-weight: var(--font-weight-bold);
 }
 
-.text-primary {
-    color: var(--primary-color);
+.text--primary {
+    color: var(--primary-color) !important;
 }
 
 .text--secondary {
@@ -624,7 +624,7 @@ span {
 }
 
 .service-image img{
-    height: 255px;
+    height: 212px;
     object-fit: cover;
 }
 
@@ -643,9 +643,104 @@ span {
     right: -28px;
 }
 
+.second-bottom-right{
+    bottom: -23px;
+    left: -28px;
+}
+
 .top-left {
     top: -23px;
     left: -28px;
+}
+
+.second-top-left{
+    top: -23px;
+    right: -28px;
+}
+
+
+.request-modal h5{
+  font-size: 14px;
+}
+
+.services-request-form{
+    margin: 0 1rem 0 1rem;
+    border-top: 1px solid #d9d9d9; 
+}
+
+.services-req-form input:focus{
+   box-shadow: none !important;
+   border: 1px solid var(--primary-color) !important;
+   background-color: var(--input-bg);
+}
+
+.req-modal{
+    width: 30% !important;
+}
+
+.services-rounded-circle{
+    top: calc(50% - 25px);
+    right: -15px;
+}
+
+.second-services-rounded{
+    top: calc(50% - 25px);
+    left: -15px;
+}
+
+.services-rounded-circle span{
+    width: 30px;
+    height: 30px;
+}
+
+.second-services-rounded span{
+    width: 30px;
+    height: 30px;
+}
+
+.reverse-services-row{
+    margin-top: 8rem;
+}
+
+.view-project-btn{
+    top:calc(50% - 15px);
+    font-size: 12px;
+}
+
+.project-info-slider:hover img {
+    filter: brightness(0.7);
+    transition: transform 0.5s ease, filter 0.5s ease;
+    cursor: pointer;
+}
+
+.project-content-bullet span{
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+
+.project-content-bullet p{
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.project-body .project-desc{
+    font-size: 12px;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+.project-body::-webkit-scrollbar {
+    width: 6px;
+}
+  
+.project-body::-webkit-scrollbar-track {
+    border-radius: 10px;
+    margin-top: 0.5rem;
+}
+
+.project-body::-webkit-scrollbar-thumb {
+    background: var(--primary-color); 
+    border-radius: 10px;
 }
 
 

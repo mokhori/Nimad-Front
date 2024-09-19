@@ -169,6 +169,7 @@
         <p class="text--secondary">آنچه طرح و ساخت نیماد در همراهی با شما ارائه می‌دهد.</p>
       </div>
       <div class="row g-4">
+
         <div class="col-lg-3 col-xl-3 col-xxl-3">
           <div class="services-div overflow-hidden">
             <div class="services-img rounded-3 overflow-hidden">
@@ -188,6 +189,7 @@
             </div>
           </div>
         </div>
+
         <div class="col-lg-3 col-xl-3 col-xxl-3">
           <div class="services-div overflow-hidden">
             <div class="services-img rounded-3 overflow-hidden">
@@ -206,6 +208,7 @@
             </div>
           </div>
         </div>
+
         <div class="col-lg-3 col-xl-3 col-xxl-3">
           <div class="services-div overflow-hidden">
             <div class="services-img rounded-3 overflow-hidden">
@@ -225,6 +228,7 @@
             </div>
           </div>
         </div>
+
         <div class="col-lg-3 col-xl-3 col-xxl-3">
           <div class="services-div overflow-hidden">
             <div class="services-img rounded-3 overflow-hidden">
@@ -243,6 +247,7 @@
             </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
@@ -259,7 +264,7 @@
         <div class="position-relative container p-0">
           <div class="swiper project-swiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide">
+              <div class="swiper-slide position-relative project-info-slider">
                 <img src="./assets/img/7.png" alt="">
                 <div class="d-flex justify-content-center">
                   <div class="project-info-text position-relative">
@@ -268,8 +273,13 @@
                     </h6>
                   </div>
                 </div>
+                <div class="position-absolute text-center w-100 view-project-btn d-none">
+                  <span class="view-project text-center bg-white rounded-4 p-2 px-3">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#projectModal" class="text--primary">مشاهده</a>
+                  </span>
+                </div>
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slide position-relative project-info-slider">
                 <img src="./assets/img/8.png" alt="">
                 <div class="d-flex justify-content-center">
                   <div class="project-info-text position-relative">
@@ -278,8 +288,13 @@
                     </h6>
                   </div>
                 </div>
+                <div class="position-absolute text-center w-100 view-project-btn d-none">
+                  <span class="view-project text-center bg-white rounded-4 p-2 px-3">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#projectModal" data-image="./assets/img/7.png" data-title="ساخت پل عباسپور" data-description="لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم..." class="text--primary" onclick="openProjectModal(this)">مشاهده </a>
+                  </span>
+                </div>
               </div>
-              <div class="swiper-slide">
+              <!-- <div class="swiper-slide">
                 <img src="./assets/img/9.png" alt="">
                 <div class="d-flex justify-content-center">
                   <div class="project-info-text position-relative">
@@ -318,7 +333,7 @@
                     </h6>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="swiper-button-prev btn btn-circle"></div>
@@ -330,7 +345,7 @@
   </section>
 
   <section class="request-sec">
-    <div class="container p-0>
+    <div class="container p-0">
       <div class="row">
         <div class="request-section py-md-0 py-5 bg--section rounded-4">
           <div class="d-flex flex-md-row flex-column align-items-md-stretch align-items-center request-img-text justify-content-center gap-5 h-md-auto">
@@ -375,15 +390,13 @@
   <section class="mt-5">
     <div class="container p-0">
       <div class="text-center mb-4">
-        <h5>
-          آخرین مقالات
-          <!-- <a href="#" class="d-flex align-items-center float-end">
-              <span class="font-color" style="font-size: 13px;">
-                همه مقالات
-                <i class="fa-solid fa-angle-left"></i>
-              </span>
-            </a> -->
-        </h5>
+        <div class="row border-bottom-0 d-flex justify-content-end align-items-center">
+          <h5 class="col-10">آخرین مقالات</h5>
+          <div class="col-1 justify-content-end align-items-center d-flex">
+            <a href="#" style="font-size: 13px;">همه مقالات</a>
+            <i class="fa-solid fa-angle-left" style="font-size: 11px;"></i>
+          </div>
+        </div>
       </div>
       <div class="my-blog-swiper">
         <div class="swiper blog-swiper">
@@ -405,7 +418,7 @@
                       </small>
                     </p>
                     <a href="#" class="d-flex align-items-center">
-                      <span class="text-primary">
+                      <span class="text--primary">
                         <small>ادامه مطلب</small>
                         <i class="fa-solid fa-angle-left px-1" style="font-size: 11px;"></i>
                       </span>
@@ -431,7 +444,7 @@
                       </small>
                     </p>
                     <a href="#" class="d-flex align-items-center">
-                      <span class="text-primary">
+                      <span class="text--primary">
                         <small>ادامه مطلب</small>
                         <i class="fa-solid fa-angle-left px-1" style="font-size: 11px;"></i>
                       </span>
@@ -457,7 +470,7 @@
                       </small>
                     </p>
                     <a href="#" class="d-flex align-items-center">
-                      <span class="text-primary">
+                      <span class="text--primary">
                         <small>ادامه مطلب</small>
                         <i class="fa-solid fa-angle-left px-1" style="font-size: 11px;"></i>
                       </span>
@@ -483,7 +496,7 @@
                       </small>
                     </p>
                     <a href="#" class="d-flex align-items-center">
-                      <span class="text-primary">
+                      <span class="text--primary">
                         <small>ادامه مطلب</small>
                         <i class="fa-solid fa-angle-left px-1" style="font-size: 11px;"></i>
                       </span>
@@ -509,7 +522,7 @@
                       </small>
                     </p>
                     <a href="#" class="d-flex align-items-center">
-                      <span class="text-primary">
+                      <span class="text--primary">
                         <small>ادامه مطلب</small>
                         <i class="fa-solid fa-angle-left px-1" style="font-size: 11px;"></i>
                       </span>
@@ -754,7 +767,7 @@
                 <div class="input-group custom-input-group rounded-3">
                     <input type="email" class="form-control custom-input rounded-start-3 border-end-0 input--bg px-2" id="email" placeholder="info@gmail.com">
                     <span class="rounded-end-3 input--bg border-start-0 p-2 d-flex align-items-center">
-                        <i class="fas fa-user text-primary"></i>
+                        <i class="fas fa-user text--primary"></i>
                     </span>
                 </div>
             </div>
@@ -765,12 +778,12 @@
                 </span>
                 <input type="password" class="form-control custom-input border-start-0 border-end-0 input--bg px-0" id="password" placeholder="">
                 <span class="rounded-end-3 input--bg border-start-0 p-2 d-flex align-items-center">
-                  <i class="fa-solid fa-lock text-primary"></i>
+                  <i class="fa-solid fa-lock text--primary"></i>
                 </span>
               </div>
               <div class="text-under-button d-flex justify-content-between align-items-center">
               
-                <a href="#" class="text-primary text-decoration-underline font-color font-size-span mt-2">
+                <a href="#" class="text--primary text-decoration-underline font-color font-size-span mt-2">
                   فراموشی رمز عبور
                 </a>
 
@@ -786,7 +799,7 @@
             </div>
             <button type="submit" class="btn btn-primary w-100 rounded-3 login-btn">ورود</button>
             <p class="font-color text-center font-size-span m-3">
-              حساب کاربری ندارید؟ <a href="#" class="text-primary text-decoration-underline">اینجا ثبت نام کنید</a>
+              حساب کاربری ندارید؟ <a href="#" class="text--primary text-decoration-underline">اینجا ثبت نام کنید</a>
             </p>
             <button type="submit" class="btn w-100 rounded-3 login-google-btn border">ورود با حساب گوگل
               <img src="/Nimad/assets/img/pngegg.png" alt="google" srcset="" class="google-img">
@@ -796,6 +809,33 @@
       </div>
     </div>
   </div>
+
+
+  <!-- projectModal -->
+  <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content rounded-3">
+        <div class="modal-body project-body mx-1 my-1 p-3">
+          <img id="projectImage" src="/Nimad/assets/img/8.png" alt="Project Image" class="img-fluid object-fit-cover mb-0 w-100 rounded-3 ">
+          <div class="d-flex align-items-center project-content-bullet">
+            <span class="text--primary d-flex">
+              &#8226;
+            </span>
+            <p class="font-color mb-0 mx-1" id="projectTitle">
+              ساخت پل عباسپور
+            </p>
+          </div>
+          <p id="projectDescription" class="project-desc">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
 
   <script src="./assets/scripts/bootstrap.bundle.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
