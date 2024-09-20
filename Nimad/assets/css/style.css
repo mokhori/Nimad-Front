@@ -155,9 +155,9 @@ span {
 }
 
 .about-section p {
-    font-size: 12px;
+    font-size: 13px;
     color: var(--content-color);
-    line-height: normal;
+    line-height: 1.5rem;
     text-align: justify;
     font-family: var(--font-family);
 
@@ -674,9 +674,6 @@ span {
    background-color: var(--input-bg);
 }
 
-.req-modal{
-    width: 30% !important;
-}
 
 .services-rounded-circle{
     top: calc(50% - 25px);
@@ -698,9 +695,6 @@ span {
     height: 30px;
 }
 
-.reverse-services-row{
-    margin-top: 8rem;
-}
 
 .view-project-btn{
     top:calc(50% - 15px);
@@ -747,25 +741,11 @@ span {
 
 
 @media only screen and (max-width: 768px) {
-    .no-padding {
-        padding: 0 !important;
-    }
-
-    .locations {
-        margin-top: 3rem !important;
-    }
-
-    .custom-margin-second-frame {
-        margin-top: 2rem !important;
-    }
-
 
     .h-md-auto {
         height: auto !important;
     }
-
-
-
+    
     .request-from .form .input-form,
     .request-from .request-from-dropdown button,
     .request-from .request-from-dropdown {
